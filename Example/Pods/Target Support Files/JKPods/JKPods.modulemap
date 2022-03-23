@@ -1,0 +1,6 @@
+framework module JKPods {
+  umbrella header "JKPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "JKPods",
+  "version": "0.1.0",
+  "summary": "A short description of JKPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jack/JKPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jack": "jack.kuo@crypto.com"
+  },
+  "source": {
+    "git": "https://github.com/Jack/JKPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JKPods/Classes/**/*"
+}
