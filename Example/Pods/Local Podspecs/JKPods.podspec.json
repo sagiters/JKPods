@@ -1,18 +1,18 @@
 {
   "name": "JKPods",
   "version": "0.1.0",
-  "summary": "A short description of JKPods.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Jack/JKPods",
+  "summary": "This is demo",
+  "description": "This is temp description of JKPods.",
+  "homepage": "https://github.com/sagiters/JKPods",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Jack": "jack.kuo@crypto.com"
+    "Jack": "sagiters19@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Jack/JKPods.git",
+    "git": "https://github.com/sagiters/JKPods.git",
     "tag": "0.1.0"
   },
   "platforms": {

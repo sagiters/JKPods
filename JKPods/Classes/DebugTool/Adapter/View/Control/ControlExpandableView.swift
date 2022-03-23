@@ -27,7 +27,7 @@ class ControlExpandableView: UIView {
 
         self.minExpandFrame = expandMinFrame
 
-        var ratio: CGFloat = 1.0
+        let ratio: CGFloat = 1.0
 
         let newWidth = self.frame.size.width - (self.contentInsets.left + self.contentInsets.right)
         let newHeight = newWidth / ratio

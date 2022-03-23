@@ -62,7 +62,7 @@ public class ControlButton {
         if let gestureView = gesture.view, let floatSuperView = self.buttonFloatingOn {
 
             let topLimit: CGFloat = (ControlConfiguration.shared.buttonSize.height / 2.0) + ControlConfiguration.shared.padding
-            let bottomLimit: CGFloat = (floatSuperView.frame.size.height - topLimit)
+            let _: CGFloat = (floatSuperView.frame.size.height - topLimit)
             let leftLimit: CGFloat = ((ControlConfiguration.shared.buttonSize.width / 2.0) + ControlConfiguration.shared.padding)
             let rightLimit: CGFloat = (floatSuperView.frame.size.width - leftLimit)
 

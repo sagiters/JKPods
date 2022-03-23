@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKPods'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JKPods.'
+  s.version          = '0.2.0'
+  s.summary          = 'This is demo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is temp description of JKPods.
                        DESC
 
-  s.homepage         = 'https://github.com/Jack/JKPods'
+  s.homepage         = 'https://github.com/sagiters/JKPods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jack' => 'sagiters19@gmail.com' }
@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'JKPods/Classes/**/*'
+
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'JKPods' => ['JKPods/Assets/*.png']
